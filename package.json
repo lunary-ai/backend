@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts",
+    "dev": "bun run --watch index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@json2csv/plainjs": "^7.0.4",
+    "@types/koa": "^2.13.12",
+    "@types/koa-router": "^7.4.8",
+    "koa": "^2.15.0",
+    "koa-router": "^12.0.1",
+    "postgres": "^3.4.3"
+  }
+}
